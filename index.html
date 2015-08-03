@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>web_corehq</title>
+	<!-- jQuery library (served from Google) -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+	<!-- bxSlider Javascript file -->
+	<script src="js/jquery.bxslider.min.js"></script>
+	<!-- bxSlider CSS file -->
+	<link href="css/jquery.bxslider.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+<!-- header -->
+	<div class="header"> 
+		<div class="size">
+			<div class="left">
+				<a href="#"><img src="images/logo.png" alt="logo"></a>
+			</div>
+			<div class="menu">
+				<ul>
+					<li><a href="#">home</a></li>
+					<li><a href="#">pricing</a></li>
+					<li><a href="#">how it works</a></li>
+					<li><a href="#">contact</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+<!--slider-->
+	<div>
+		<ul class="bxslider">
+				<li>
+					<div class="content">
+						<div class="left">
+							<img src="images/stopwatch.png" alt="logo">
+						</div>
+					<div class="column">
+						<p class="label"> Manage <span class="grey">your time</span> easily.</p>
+						<p><button class="big">Try it for free!</button> <button class="small"><img src="images/button.png"></button></p>
+					</div>
+					
+					</div>
+				</li>
+			  <li></li>
+			  <li></li>
+			  <li></li>
+			  <li></li>
+			  <li></li>
+		</ul>
+	</div>
+	<div></div>
+<!-- trial_form -->
+	<form action="#" name="trial_form" class="size form">
+		<fieldset>	
+			<legend><img src="images/trial_form.png" alt="trial_form"></legend>
+				 <label>
+				  	<h2>Start your freeeeee trial quick!</h2>
+				 	<p>just fill out this simple form, and rest later:</p>
+				</label>
+				<div class="left">
+					<p>
+						<input type="text" placeholder="Your name" required>
+					</p>
+					<p>
+						<input type="email" placeholder="Email" required>
+					</p>
+				</div>
+				<div class="right">
+					<p>
+						<input type="text" placeholder="Company name" required>
+					</p>
+					<p>
+						<input type="password" placeholder="Password" autocomplete="off" required>
+					</p>
+				</div>
+		</fieldset>
+		<p class="center"><button class="big">I want to start now!</button> <button class="small"><img src="images/button.png"></button></p>
+	</form>
+<!-- about -->
+	<div class="about">
+		<div class="size">		
+		<div class="features">
+			<h2>Features</h2>
+			<ul class="features-list">
+				<li>Manage your projects</li>
+				<li>Create reports</li>
+				<li>Manage time sheets</li>
+				<li >Create invoices and estimates and much more..</li>
+			</ul>
+		</div>
+		<div class="computer"><img src="images/monitor_screen.png" alt="monitor_screen"></div></div>
+	</div>
+<!-- social -->
+	<div class="social">
+		<div class="size">		
+			<div class="left">
+				<h2>Keep in touch!</h2>
+			 	<ul class="sociallink">
+					<li><a href="#" class="facebook"></a></li>
+					<li><a href="#" class="twitter"></a></li>
+					<li><a href="#" class="linkedin"></a></li>
+					<li><a href="#" class="rss"></a></li>
+				</ul>
+			</div>
+		<form action="#" class="right" name="newsletter_form">
+			<label for="newsletter"><h2>Newsletter</h2></label>
+			<p><input type="email"  class="blue" value="Your email" required></p>
+			<p><input type="checkbox" required> yes, I want to receive your newsletter</p>
+			<p><button class="middle">Register me</button> <button class="small"><img src="images/button.png"></button></p>
+		</form></div>
+	</div>
+<!-- footer -->
+	<div class="footer">
+		<div class="size">
+			<div class="copyright">
+				<a href="#"><img src="images/logo.png" alt="logo"></a>
+				<p>Copyright 2013 © <b>10oz.com.</b> All Rights Reserved.</p>
+			</div>
+			<div class="menulink">
+				<ul class="slash">
+					<li><a href="#">Contact</a></li>
+					<li><a href="#">Privacy policy</a></li>
+					<li><a href="#">Security</a></li>
+					<li><a href="#">Help</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+<script>
+$(document).ready(function(){
+  $('.bxslider').bxSlider();
+});
+</script>
+</body>
+</html>
